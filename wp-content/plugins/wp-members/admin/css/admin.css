@@ -1,0 +1,84 @@
+/**
+ * WP-Members Admin Styles CSS
+ *
+ * CSS for the WP-Members admin panels
+ * 
+ * This file is part of the WP-Members plugin by Chad Butler
+ * You can find out more about this plugin at https://rocketgeek.com
+ * Copyright (c) 2006-2018 Chad Butler
+ * WP-Members(tm) is a trademark of butlerblog.com
+ *
+ * @package WordPress
+ * @subpackage WP-Members
+ * @author Chad Butler 
+ * @copyright 2006-2018
+ */
+
+
+.wpmem_tbl_drag { 
+	background:#fffbcc;
+	font-weight: bold;
+	border: 1px solid #990000;
+}
+
+.column-wpmem_block {
+	width: 80px;
+}
+
+#addfieldform li,
+#editfieldform li,
+#updatesettings li {
+	padding: 5px 0; 
+}
+
+#addfieldform label,
+#editfieldform label,
+#updatesettings label {
+	float:left;
+	width: 166px;
+}
+
+#addfieldform .add-field-indent,
+#editfieldform .add-field-indent {
+	margin-left: 165px;
+}
+
+#fields_postbox,
+#add_field_postbox {
+	min-width:950px;
+}
+
+.req {
+	color: #f00;
+}
+
+#the-list {
+	cursor: move;
+}
+#sort, #edit {
+	width: 30px;
+}
+
+#wpmem_block input {
+	vertical-align: -webkit-baseline-middle;
+}
+#wpmem_post_block_status {
+	font-weight: 600;
+}
+#wpmem_post_icon_0 {
+	color: red;
+}
+#wpmem_post_icon_1 {
+	color: green;
+}
+#wpmem_post_icon_2 {
+	color: black;
+}
+#wpmem_product_enabled {
+	color: green;
+}
+#s2id__wpmem_products,
+.select2-search-field,
+#_wpmem_products {
+	width: 100%;
+}
